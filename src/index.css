@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-link {
+    @apply text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium;
+  }
+  
+  .feature-card {
+    @apply bg-gray-800 p-6 rounded-lg text-center;
+  }
+}
+
+body {
+  @apply bg-gray-900 text-white;
+}
